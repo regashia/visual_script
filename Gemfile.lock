@@ -3,6 +3,7 @@ PATH
   specs:
     visual_script (0.0.0)
       sinatra
+      sinatra-contrib
       slim
 
 GEM
@@ -27,6 +28,7 @@ GEM
       minitest (~> 5.1)
       tzinfo (~> 1.1)
     ast (2.4.0)
+    backports (3.11.3)
     builder (3.2.3)
     concurrent-ruby (1.0.5)
     crass (1.0.4)
@@ -41,6 +43,7 @@ GEM
     method_source (0.9.0)
     mini_portile2 (2.3.0)
     minitest (5.11.3)
+    multi_json (1.13.1)
     mustermann (1.0.2)
     nokogiri (1.8.4)
       mini_portile2 (~> 2.3.0)
@@ -96,6 +99,14 @@ GEM
       rack (~> 2.0)
       rack-protection (= 2.0.3)
       tilt (~> 2.0)
+    sinatra-contrib (2.0.3)
+      activesupport (>= 4.0.0)
+      backports (>= 2.8.2)
+      multi_json
+      mustermann (~> 1.0)
+      rack-protection (= 2.0.3)
+      sinatra (= 2.0.3)
+      tilt (>= 1.3, < 3)
     slim (3.0.9)
       temple (>= 0.7.6, < 0.9)
       tilt (>= 1.3.3, < 2.1)
