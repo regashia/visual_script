@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 RSpec.describe VisualScript do
   it "has a version number" do
     expect(VisualScript::VERSION).not_to be nil
