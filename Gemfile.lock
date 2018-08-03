@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    visual_script (0.1.0)
+    visual_script (0.0.0)
       sinatra
       slim
 
